@@ -115,6 +115,22 @@ address.address-section h1 {
 	padding: 0;
 }
 
+#customer-register > .inline-group {
+	margin: 8px 0;
+	display: flex;
+	align-items: center;
+}
+
+#customer-register > .inline-group > div > label, #customer-register > .inline-group > div > div {
+	display: inline-block;
+	font-style: normal;
+	font-size: 1.4rem;
+}
+
+#customer-register > .inline-group > div > div > input {
+	height: 40px;
+}
+
 main.main-content {
 	grid-area: main-content;
 	display: grid;
@@ -143,9 +159,10 @@ main.main-content div.add-ons-area {
 
 footer.page-footer {
 	grid-area: footer-area;
-	padding: 0 5%;
+	padding: 8px 5%;
 }
 
-footer.page-footer div.footer-disclosure {
+footer.page-footer div.footer-ads span.pricing-comment {
 	color: var(--ZTelcoElectricBlue);
+	font-style: italic;
 }
