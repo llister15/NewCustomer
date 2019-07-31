@@ -41,7 +41,6 @@ div.page-wrap {
 	position: relative;
 	min-height: 100%;
 	display: grid;
-	grid-auto-rows: 325px auto;
 	grid-template-areas: 
 	"top-header"
 	"address-area"
@@ -131,35 +130,36 @@ address.address-section h1 {
 	height: 40px;
 }
 
+#customer-register .col-2 {
+	display: grid;
+	grid-auto-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    justify-items: space-between;
+}
+
 main.main-content {
 	grid-area: main-content;
 	display: grid;
 	grid-auto-columns: 1fr 1fr;
 	grid-auto-rows: auto;
-	background: #a9a9a9;
+	padding: 0 10%;
 }
 
 main.main-content div.product-table {
 	grid-area: 1 / 1 / 2 / 3;
-	background: #595959;
-	border: 1px solid #000;
 }
 
 main.main-content div.services-area {
 	grid-area: 2 / 1 / 3 / 2;
-	background: #09f9f9;
-	border: 1px solid #000;
 }
 
 main.main-content div.add-ons-area {
 	grid-area: 2/ 2 / 3 / 3;
-	background: #f9f9f9;
-	border: 1px solid #000;
 }
 
 footer.page-footer {
 	grid-area: footer-area;
-	padding: 8px 5%;
+	padding: 8px 10%;
 }
 
 footer.page-footer div.footer-ads span.pricing-comment {

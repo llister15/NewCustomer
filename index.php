@@ -61,22 +61,24 @@
 				</div>
 
 				<!-- Text input-->
-				<div class="inline-group">
+				<div class="inline-group col-2">
+				<div class="form-group">
 				  <label class="col-md-4 control-label" for="Phone">Phone</label>  
 				  <div class="col-md-4">
-				  <input id="Phone" name="Phone" type="text" placeholder="" class="form-control input-md" required="">
+				  <input id="Phone" name="Phone" type="text" placeholder="" class="form-control input-md" required="true" size="65">
 					
 				  </div>
 				</div>
 
 				<!-- Text input-->
-				<div class="inline-group">
+				<div class="form-group">
 				  <label class="col-md-4 control-label" for="Email">Email</label>  
 				  <div class="col-md-4">
-				  <input id="Email" name="Email" type="text" placeholder="" class="form-control input-md" required="">
+				  <input id="Email" name="Email" type="text" placeholder="" class="form-control input-md" required="true" size="65">
 					
 				  </div>
 				</div>
+			</div>
 
 				<!-- Text input-->
 				<div class="inline-group">
