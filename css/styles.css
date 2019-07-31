@@ -8,7 +8,11 @@
 }
 
 :root {
-  --type: yellow;
+  --ZTelcoBlazingBlue: #0B213E;
+  --ZTelcoElectricBlue: #04ABD7;
+  --ZTelcoRedConnection: #F37C66;
+  --ZTelcoDeepGrey: #404040;
+  --ZTelcoCoolGrey: #E6E7E8;
 }
 
 * {
@@ -41,7 +45,6 @@ div.page-wrap {
 
 header.top-header {
 	grid-area: top-header;
-	background: var(--type);
 	border: 1px solid #000;
 }
 
