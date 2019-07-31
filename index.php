@@ -6,7 +6,7 @@
  *
  * @author     Louis Lister <llister@ZTelco.com>
  * @copyright  2019 ZTelco
- * @package level-1
+ * @package    level-1
  * @version    1.0.0
  * @since      1.0.0
  */
@@ -28,10 +28,10 @@
 <div class="page-wrap">
 	<header class="top-header">
 		<div class="logo">
-			<img class="responsive-img" src="" />
+			<img class="responsive-img" src="img/ztelco-logo.png" />
 		</div>
 		<div class="top-right-design">
-			<img class="responsive-img" src="" />
+			<img class="responsive-img" src="img/design.png" />
 		</div>
 	</header>
 	<address class="address-section">
