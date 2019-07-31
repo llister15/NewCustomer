@@ -38,11 +38,11 @@
 		</div>
 	</header>
 	<address class="address-section">
+		<div class="above-the-form">
+			<h1 class="new-customer-header">New Customer Registration</h1>
+		</div>
 		<form class="inline-form">
-			<div class="left-form-side">
-				
-			</div>
-			<div class="right-form-side">
+			<div class="customer-form-container">
 				
 			</div>
 		</form>
@@ -60,7 +60,12 @@
 	</main>
 	<footer class="page-footer">
 		<div class="footer-ads">
-			
+			<span class="pricing-comment">Ask About Our Annual Pricing.</span>
+		</div>
+		<div class="footer-disclosure">
+			<p>
+				*   Available speeds may vary according to your location. Not all speeds are available in all locations. One-time installation of $99 which includes CAT5e/6 inside wiring from MPOE to customer suite. Promotional prices good for the first 6 months of services, after which prices will revert to regular pricing. This form may not reflect your total bill if additional services not listed here are included in your order. Prices do not include taxes, fees and additional hardware. Phone services delivered via Android or iPhone app for mobile phone if no hardware is purchased.
+			</p>
 		</div>
 	</footer>
 </div>
