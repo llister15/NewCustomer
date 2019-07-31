@@ -27,16 +27,44 @@ div.page-wrap {
 
 header.top-header {
 	grid-area: top-header;
+	background: #f9f9f9;
+	border: 1px solid #000;
 }
 
 address.address-section {
 	grid-area: address-area;
+	background: #09f9f9;
+	border: 1px solid #000;
 }
 
 main.main-content {
 	grid-area: main-content;
+	display: grid;
+	grid-auto-columns: 1fr 1fr;
+	grid-auto-rows: auto;
+	background: #a9a9a9;
+}
+
+main.main-content div.product-table {
+	grid-area: 1 / 1 / 2 / 3;
+	background: #595959;
+	border: 1px solid #000;
+}
+
+main.main-content div.services-area {
+	grid-area: 2 / 1 / 3 / 2;
+	background: #09f9f9;
+	border: 1px solid #000;
+}
+
+main.main-content div.add-ons-area {
+	grid-area: 2/ 2 / 3 / 3;
+	background: #f9f9f9;
+	border: 1px solid #000;
 }
 
 footer.page-footer {
 	grid-area: footer-area;
+	background: #dedede;
+	border: 1px solid #000;
 }
