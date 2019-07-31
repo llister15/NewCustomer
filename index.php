@@ -262,75 +262,75 @@
 			  </tr>
 			  <tr>
 				<td>$27.95 monthly / user</td>
-				<td></td>
+				<td><input type="checkbox" name="" value=""></td>
 				<td>$35.95 monthly / user</td>
-				<td></td>
+				<td><input type="checkbox" name="" value=""></td>
 			  </tr>
 			  <tr>
 				<td>Total Number of Users</td>
-				<td></td>
+				<td><input type="text" name="" size="2"></td>
 				<td>Total Number of Users</td>
-				<td></td>
+				<td><input type="text" name="" size="2"></td>
 			  </tr>
 			  <tr>
 				<td>Auto Attendant</td>
-				<td></td>
+				<td>&#10003;</td>
 				<td>Auto Attendant</td>
-				<td></td>
+				<td>&#10003;</td>
 			  </tr>
 			  <tr>
 				<td>Voicemail</td>
-				<td></td>
+				<td>&#10003;</td>
 				<td>Voicemail</td>
-				<td></td>
+				<td>&#10003;</td>
 			  </tr>
 			  <tr>
 				<td>Unlimited Included Minutes</td>
-				<td></td>
+				<td>&#10003;</td>
 				<td>Unlimited Included Minutes</td>
-				<td></td>
+				<td>&#10003;</td>
 			  </tr>
 			  <tr>
 				<td>Caller ID</td>
-				<td></td>
+				<td>&#10003;</td>
 				<td>Caller ID</td>
-				<td></td>
+				<td>&#10003;</td>
 			  </tr>
 			  <tr>
 				<td>1000 Inbound Toll Free Minutes</td>
-				<td></td>
+				<td>&#10003;</td>
 				<td>5000 Inbound Toll Free Minutes</td>
-				<td></td>
+				<td>&#10003;</td>
 			  </tr>
 			  <tr>
 				<td>Call Recording</td>
-				<td></td>
+				<td>&#10005;</td>
 				<td>Call Recording</td>
-				<td></td>
+				<td>&#10003;</td>
 			  </tr>
 			  <tr>
 				<td>Multi Level Auto Attendant</td>
 				<td></td>
 				<td>Multi Level Auto Attendant</td>
-				<td></td>
+				<td>&#10003;</td>
 			  </tr>
 			  <tr>
 				<td>Time Based Routing</td>
-				<td></td>
+				<td>&#10005;</td>
 				<td>Time Based Routing</td>
-				<td></td>
+				<td>&#10003;</td>
 			  </tr>
 			  <tr>
 				<td>Call Monitoring</td>
-				<td></td>
+				<td>&#10005;</td>
 				<td>Call Monitoring</td>
-				<td></td>
+				<td>&#10003;</td>
 			  </tr>
 			  <tr>
 				<td>Voicemail Transcription</td>
-				<td></td>
+				<td>&#10005;</td>
 				<td>Voicemail Transcription</td>
-				<td></td>
+				<td>&#10003;</td>
 			  </tr>
 			</table>
 		</div>
@@ -342,53 +342,53 @@
 				<th>Additional Add Ons</th>
 			  </tr>
 			  <tr>
-				<td></td>
-				<td></td>
+				<td><input type="checkbox" name="" value=""></td>
+				<td><input type="text" name="" size="2"></td>
 				<td>Additional Charges Apply</td>
 			  </tr>
 			  <tr>
-				<td></td>
-				<td></td>
+				<td><input type="checkbox" name="" value=""></td>
+				<td><input type="text" name="" size="2"></td>
 				<td>Yealink W60p Wireless Phone + Base $210</td>
 			  </tr>
 			  <tr>
-				<td></td>
-				<td></td>
+				<td><input type="checkbox" name="" value=""></td>
+				<td><input type="text" name="" size="2"></td>
 				<td>Yealink Additional Handsets $130</td>
 			  </tr>
 			  <tr>
-				<td></td>
-				<td></td>
+				<td><input type="checkbox" name="" value=""></td>
+				<td><input type="text" name="" size="2"></td>
 				<td>Polycom VVX411 Phone $196</td>
 			  </tr>
 			  <tr>
-				<td></td>
-				<td></td>
+				<td><input type="checkbox" name="" value=""></td>
+				<td><input type="text" name="" size="2"></td>
 				<td>Polycom VVX311 Phone $158</td>
 			  </tr>
 			  <tr>
-				<td></td>
-				<td></td>
+				<td><input type="checkbox" name="" value=""></td>
+				<td><input type="text" name="" size="2"></td>
 				<td>WiFi $25/month</td>
 			  </tr>
 			  <tr>
-				<td></td>
-				<td></td>
+				<td><input type="checkbox" name="" value=""></td>
+				<td><input type="text" name="" size="2"></td>
 				<td>Fax to Email $25/month</td>
 			  </tr>
 			  <tr>
-				<td></td>
-				<td></td>
+				<td><input type="checkbox" name="" value=""></td>
+				<td><input type="text" name="" size="2"></td>
 				<td>Marketing DID $3/month</td>
 			  </tr>
 			  <tr>
-				<td></td>
-				<td></td>
+				<td><input type="checkbox" name="" value=""></td>
+				<td><input type="text" name="" size="2"></td>
 				<td>Additional Toll-Free Numbers $5/month</td>
 			  </tr>
 			  <tr>
-				<td></td>
-				<td></td>
+				<td><input type="checkbox" name="" value=""></td>
+				<td><input type="text" name="" size="2"></td>
 				<td>Viking Paging Unit $49/month</td>
 			  </tr>
 			</table>
