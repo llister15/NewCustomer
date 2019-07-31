@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'lttetria_blackregular';
+    src: url('fonts/conduit-webfont.woff2') format('woff2'),
+         url('fonts/conduit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -11,6 +20,7 @@ html, body {
 
 body {
 	min-height: 100%;
+	font-family: lttetria_blackregular;
 }
 
 div.page-wrap {

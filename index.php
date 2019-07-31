@@ -1,22 +1,37 @@
 <?php
 /**
- * Template for Z-Telco New Customers Sign up form.
+ * Index.php
+ *
+ * New Customer Registration Form
+ *
+ * @author     Louis Lister <llister@ZTelco.com>
+ * @copyright  2019 ZTelco
+ * @package    level-1
+ * @version    1.0.0
+ * @since      1.0.0
  */
+
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Z-Telco New Customer Form</title>
-<link rel="stylesheet" type="text/css" href="./NewCustomer/css/styles.css">
+	<title>New Customer Registration Form</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Free Web tutorials">
+	<meta name="keywords" content="Custom webform for ZTelco">
+	<meta name="author" content="Louis Lister">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 <div class="page-wrap">
 	<header class="top-header">
 		<div class="logo">
-			<img class="responsive-img" src="" />
+			<img class="responsive-img" src="img/ztelco-logo.png" />
 		</div>
 		<div class="top-right-design">
-			<img class="responsive-img" src="" />
+			<img class="responsive-img" src="img/design.png" />
 		</div>
 	</header>
 	<address class="address-section">
@@ -46,5 +61,6 @@
 		</div>
 	</footer>
 </div>
+
 </body>
 </html>
