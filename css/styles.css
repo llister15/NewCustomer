@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'lttetria_blackregular';
+    src: url('fonts/conduit-webfont.woff2') format('woff2'),
+         url('fonts/conduit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-height: 100%;
+	font-family: lttetria_blackregular;
+}
+
+div.page-wrap {
+	position: relative;
+	min-height: 100%;
+	display: grid;
+	grid-auto-rows: auto;
+	grid-template-areas: 
+	"top-header"
+	"address-area"
+	"main-content"
+	"footer-area";
+}
+
+header.top-header {
+	grid-area: top-header;
+}
+
+address.address-section {
+	grid-area: address-area;
+}
+
+main.main-content {
+	grid-area: main-content;
+}
+
+footer.page-footer {
+	grid-area: footer-area;
+}

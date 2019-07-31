@@ -22,9 +22,45 @@
 	<meta name="keywords" content="Custom webform for ZTelco">
 	<meta name="author" content="Louis Lister">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	<h1>Hey you there</h1>
+<div class="page-wrap">
+	<header class="top-header">
+		<div class="logo">
+			<img class="responsive-img" src="" />
+		</div>
+		<div class="top-right-design">
+			<img class="responsive-img" src="" />
+		</div>
+	</header>
+	<address class="address-section">
+		<form class="inline-form">
+			<div class="left-form-side">
+				
+			</div>
+			<div class="right-form-side">
+				
+			</div>
+		</form>
+	</address>
+	<main>
+		<div class="product-table">
+			
+		</div>
+		<div class="services-area">
+			
+		</div>
+		<div class="add-ons-area">
+			
+		</div>
+	</main>
+	<footer>
+		<div class="footer-ads">
+			
+		</div>
+	</footer>
+</div>
+
 </body>
 </html>
