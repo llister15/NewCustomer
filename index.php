@@ -41,35 +41,27 @@
 		<div class="above-the-form">
 			<h1 class="new-customer-header">New Customer Registration</h1>
 		</div>
-		<form class="inline-form">
-
 			<div class="customer-form-container">
-
-				<form class="form-horizontal">
-
-				<!-- Form Name -->
-				<legend>New Customer Registration</legend>
-
+				<form id="customer-register" class="form-horizontal">
 				<!-- Text input-->
-				<div class="form-group">
-				  <label class="col-md-4 control-label" for="First Name">First Name</label>  
-				  <div class="col-md-4">
-				  <input id="First Name" name="First Name" type="text" placeholder="" class="form-control input-md" required="">
-					
+				<div class="inline-group col-2">
+						
+					<div class="form-group">
+				  <label class="control-label" for="firstname">First Name</label>  
+				  <div class="input-container">
+				  <input id="firstname" name="firstname" type="text" placeholder="" class="form-control input-md" required="true" size="65">
 				  </div>
+					</div>
+					<div class="form-group">
+				  <label class="control-label" for="lastname">Last Name</label>  
+				  <div class="input-container">
+				  <input id="lastname" name="lastname" type="text" placeholder="" class="form-control input-md" required="true" size="65">
+				  </div>
+				</div>
 				</div>
 
 				<!-- Text input-->
-				<div class="form-group">
-				  <label class="col-md-4 control-label" for="lastname">Last Name</label>  
-				  <div class="col-md-4">
-				  <input id="lastname" name="lastname" type="text" placeholder="" class="form-control input-md" required="">
-					
-				  </div>
-				</div>
-
-				<!-- Text input-->
-				<div class="form-group">
+				<div class="inline-group">
 				  <label class="col-md-4 control-label" for="Phone">Phone</label>  
 				  <div class="col-md-4">
 				  <input id="Phone" name="Phone" type="text" placeholder="" class="form-control input-md" required="">
@@ -78,7 +70,7 @@
 				</div>
 
 				<!-- Text input-->
-				<div class="form-group">
+				<div class="inline-group">
 				  <label class="col-md-4 control-label" for="Email">Email</label>  
 				  <div class="col-md-4">
 				  <input id="Email" name="Email" type="text" placeholder="" class="form-control input-md" required="">
@@ -87,7 +79,7 @@
 				</div>
 
 				<!-- Text input-->
-				<div class="form-group">
+				<div class="inline-group">
 				  <label class="col-md-4 control-label" for="CompanyName">Company Name</label>  
 				  <div class="col-md-4">
 				  <input id="CompanyName" name="CompanyName" type="text" placeholder="" class="form-control input-md" required="">
@@ -96,7 +88,7 @@
 				</div>
 
 				<!-- Text input-->
-				<div class="form-group">
+				<div class="inline-group">
 				  <label class="col-md-4 control-label" for="ServiceAddress">Service Address</label>  
 				  <div class="col-md-4">
 				  <input id="ServiceAddress" name="ServiceAddress" type="text" placeholder="" class="form-control input-md" required="">
@@ -105,7 +97,7 @@
 				</div>
 
 				<!-- Text input-->
-				<div class="form-group">
+				<div class="inline-group">
 				  <label class="col-md-4 control-label" for="ServiceCity">City</label>  
 				  <div class="col-md-4">
 				  <input id="ServiceCity" name="ServiceCity" type="text" placeholder="" class="form-control input-md" required="">
@@ -114,7 +106,7 @@
 				</div>
 
 				<!-- Text input-->
-				<div class="form-group">
+				<div class="inline-group">
 				  <label class="col-md-4 control-label" for="ServiceState">State</label>  
 				  <div class="col-md-4">
 				  <input id="ServiceState" name="ServiceState" type="text" placeholder="" class="form-control input-md" required="">
@@ -123,7 +115,7 @@
 				</div>
 
 				<!-- Text input-->
-				<div class="form-group">
+				<div class="inline-group">
 				  <label class="col-md-4 control-label" for="ServiceZip">Zip</label>  
 				  <div class="col-md-4">
 				  <input id="ServiceZip" name="ServiceZip" type="text" placeholder="" class="form-control input-md" required="">
@@ -132,7 +124,7 @@
 				</div>
 
 				<!-- Multiple Checkboxes (inline) -->
-				<div class="form-group">
+				<div class="inline-group">
 				  <label class="col-md-4 control-label" for="Same As Service Address">Same As Service Address</label>
 				  <div class="col-md-4">
 					<label class="checkbox-inline" for="Same As Service Address-0">
@@ -142,7 +134,7 @@
 				</div>
 
 				<!-- Text input-->
-				<div class="form-group">
+				<div class="inline-group">
 				  <label class="col-md-4 control-label" for="BillingAddress">Billing Address</label>  
 				  <div class="col-md-4">
 				  <input id="BillingAddress" name="BillingAddress" type="text" placeholder="" class="form-control input-md" required="">
@@ -151,7 +143,7 @@
 				</div>
 
 				<!-- Text input-->
-				<div class="form-group">
+				<div class="inline-group">
 				  <label class="col-md-4 control-label" for="BillingCity">City</label>  
 				  <div class="col-md-4">
 				  <input id="BillingCity" name="BillingCity" type="text" placeholder="" class="form-control input-md" required="">
@@ -160,7 +152,7 @@
 				</div>
 
 				<!-- Text input-->
-				<div class="form-group">
+				<div class="inline-group">
 				  <label class="col-md-4 control-label" for="BillingState">State</label>  
 				  <div class="col-md-4">
 				  <input id="BillingState" name="BillingState" type="text" placeholder="" class="form-control input-md" required="">
@@ -169,18 +161,14 @@
 				</div>
 
 				<!-- Text input-->
-				<div class="form-group">
+				<div class="inline-group">
 				  <label class="col-md-4 control-label" for="BillingZip">Zip</label>  
 				  <div class="col-md-4">
 				  <input id="BillingZip" name="BillingZip" type="text" placeholder="" class="form-control input-md" required="">
-					
 				  </div>
 				</div>
 				</form>
-
-				
 			</div>
-		</form>
 	</address>
 	<main class="main-content">
 		<div class="product-table">
