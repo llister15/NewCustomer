@@ -116,6 +116,7 @@
 				  <label class="col-md-4 control-label" for="ServiceState">State</label>  
 				  <div class="input-container">
 				 	<select id="ServiceState" name="ServiceState">
+				 		<option value="">Select State</option>
 				 		<option value="AL">Alabama</option>
 				 		<option value="AK">Alaska</option>
 				 		<option value="AZ">Arizona</option>
@@ -217,6 +218,7 @@
 				  <label class="col-md-4 control-label" for="BillingState">State</label>  
 				  <div class="input-container">
 				  	<select id="BillingState" name="BillingState">
+				  		<option value="">Select State</option>
 				  		<option value="AL">Alabama</option>
 				  		<option value="AK">Alaska</option>
 				  		<option value="AZ">Arizona</option>
