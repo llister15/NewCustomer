@@ -183,7 +183,8 @@
 	</address>
 	<main class="main-content">
 		<div class="product-table">
-			<table>
+			<table class="table table-striped">
+			<thead>		
 			  <tr>
 				<th>Product Name</th>
 				<th>Download x Upload*</th>
@@ -192,6 +193,8 @@
 				<th></th>
 				<th>Static IP Add-on Price (MRC)</th>
 			  </tr>
+			</thead>
+			<tbody>
 			  <tr>
 				<td>ZTelco FiberZ 100</td>
 				<td>100Mb x 20Mb</td>
@@ -253,16 +256,20 @@
 				<td>$650</td>
 				<td><input type="checkbox" name="" value=""></td>
 			  </tr>
+			</tbody>
 			</table>
 		</div>
 		<div class="services-area">
-			<table>
+			<table class="table cool-gray">
+				<thead>
 			  <tr>
 				<th>Small Business</th>
 				<th></th>
 				<th>Enterprise</th>
 				<th></th>
 			  </tr>
+			</thead>
+			  <tbody>
 			  <tr>
 				<td>$27.95 monthly / user</td>
 				<td><input type="checkbox" name="" value=""></td>
@@ -335,15 +342,19 @@
 				<td>Voicemail Transcription</td>
 				<td>&#10003;</td>
 			  </tr>
+			</tbody>
 			</table>
 		</div>
 		<div class="add-ons-area">
-			<table>
+			<table class="table cool-gray">
+			<thead>
 			  <tr>
 				<th></th>
 				<th>Quantity</th>
 				<th>Additional Add Ons</th>
 			  </tr>
+			</thead>
+			<tbody>
 			  <tr>
 				<td><input type="checkbox" name="" value=""></td>
 				<td><input type="text" name="" size="2"></td>
@@ -394,17 +405,32 @@
 				<td><input type="text" name="" size="2"></td>
 				<td>Viking Paging Unit $49/month</td>
 			  </tr>
+			</tbody>
 			</table>
 		</div>
 	</main>
 	<footer class="page-footer">
 		<div class="footer-ads">
 			<span class="pricing-comment">Ask About Our Annual Pricing.</span>
-			<span class="pricing-comment">sales@ztelco.com<br />(858) 565-2155</span>
-			<span><hr /></span>
-			<span>Customer Signature</span>
-			<span><hr /></span>
-			<span>Date</span>
+		</div>
+		<div class="contact-info-container">
+			<span class="contact-info">sales@ztelco.com<br />(858) 565-2155</span>
+		</div>
+		<div class="signature-area">
+			<div class="inline-group col-2">
+				<div class="form-group">
+			  <div class="input-container">
+			  <input id="signingcustomer" name="signingcustomer" type="text" placeholder="" class="form-control input-md" required="true">
+			  </div>
+			  <label class="control-label" for="signingcustomer">Customer Signature</label>  
+				</div>
+				<div class="form-group">
+			  <div class="input-container">
+			  <input id="signingdate" name="signingdate" type="date" placeholder="" class="form-control input-md" required="true">
+			  </div>
+			  <label class="control-label" for="signingdate">Date</label>  
+			</div>
+			</div>
 		</div>
 		<div class="footer-disclosure">
 			<p>

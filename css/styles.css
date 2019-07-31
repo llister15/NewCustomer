@@ -178,10 +178,46 @@ main.main-content {
 	grid-auto-columns: 1fr 1fr;
 	grid-auto-rows: auto;
 	padding: 0 10%;
+	grid-gap: 30px;
+	margin: 15px 0;
 }
 
 main.main-content div.product-table {
 	grid-area: 1 / 1 / 2 / 3;
+}
+
+table.table {
+	margin: auto;
+	width: 100%;
+	border-collapse: collapse;
+	background: var(--ZTelcoCoolGrey);
+}
+
+table.table th, table.table td {
+	padding: 4px;
+	text-align: center;
+}
+
+table.table thead {
+	background: var(--ZTelcoBlazingBlue);
+	color: #fff;
+}
+
+table.table.cool-gray thead {
+	background: var(--ZTelcoCoolGrey);
+	color: var(--ZTelcoBlazingBlue);
+}
+
+table.table.cool-gray tbody tr:first-child {
+	background: #fff;
+}
+
+div.services-area table.table.cool-gray tbody tr:nth-child(2) {
+	background: #fff;
+}
+
+table.table.table-striped tbody tr:nth-child(even) {
+	background: #fff;
 }
 
 main.main-content div.services-area {
@@ -195,9 +231,61 @@ main.main-content div.add-ons-area {
 footer.page-footer {
 	grid-area: footer-area;
 	padding: 8px 10%;
+	display: grid;
+	grid-auto-columns: auto auto 1fr;
+	grid-auto-flow: column;
+	grid-gap: 15px;
+}
+
+footer.page-footer div.footer-ads {
+	grid-area: 1 / 1 / 2 / 2;
+}
+
+footer.page-footer div.contact-info-container {
+	grid-area: 1 / 2 / 2 / 3;
+	display: grid;
+	align-items: center;
+	width: 350px;
+}
+
+footer.page-footer div.signature-area {
+	grid-area: 1 / 3 / 2 / 4;
+}
+
+footer.page-footer div.footer-disclosure {
+	grid-area: 2 / 1 / 3 / 4;
 }
 
 footer.page-footer div.footer-ads span.pricing-comment {
 	color: var(--ZTelcoElectricBlue);
 	font-style: italic;
+}
+
+footer.page-footer div.contact-info-container span.contact-info {
+	display: inline-block;
+	color: var(--ZTelcoElectricBlue);
+	font-style: italic;
+	font-size: 1.4rem;
+	margin: auto;
+}
+
+footer.page-footer div.signature-area .inline-group.col-2 {
+	display: grid;
+	grid-auto-columns: auto 200px;
+	grid-auto-flow: column;
+	grid-gap: 25px;
+}
+
+footer.page-footer div.signature-area .inline-group.col-2 .form-group {
+	text-align: center;
+	font-size: 1.3rem;
+}
+
+footer.page-footer div.signature-area .inline-group.col-2 .form-group input {
+	height: 40px;
+	width: 100%;
+	font-size: 1.2rem;
+	padding: 8px;
+	border: none;
+	border-bottom: 2px solid #222;
 }
