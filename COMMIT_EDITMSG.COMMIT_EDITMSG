@@ -1,0 +1,84 @@
+Added images and style
+
+# --------------
+# Please enter the commit message for your changes. Everything below
+# this paragraph is ignored, and an empty message aborts the commit.
+# Just close the window to accept your message.
+diff --git a/css/style.css b/css/style.css
+new file mode 100644
+index 0000000..dac69e4
+--- /dev/null
++++ b/css/style.css
+@@ -0,0 +1,16 @@
++@font-face {
++    font-family: 'lttetria_blackregular';
++    src: url('fonts/conduit-webfont.woff2') format('woff2'),
++         url('fonts/conduit-webfont.woff') format('woff');
++    font-weight: normal;
++    font-style: normal;
++
++}
++
++html {
++
++}
++
++body {
++	font-family: lttetria_blackregular;
++}
+\ No newline at end of file
+diff --git a/fonts/conduit-webfont.woff b/fonts/conduit-webfont.woff
+new file mode 100644
+index 0000000..f41326a
+Binary files /dev/null and b/fonts/conduit-webfont.woff differ
+diff --git a/fonts/conduit-webfont.woff2 b/fonts/conduit-webfont.woff2
+new file mode 100644
+index 0000000..92259c3
+Binary files /dev/null and b/fonts/conduit-webfont.woff2 differ
+diff --git a/fonts/conduit.ttf b/fonts/conduit.ttf
+new file mode 100644
+index 0000000..c3e9dab
+Binary files /dev/null and b/fonts/conduit.ttf differ
+diff --git a/img/Ztelco-Logo.png b/img/Ztelco-Logo.png
+new file mode 100644
+index 0000000..23ec2d5
+Binary files /dev/null and b/img/Ztelco-Logo.png differ
+diff --git a/img/design.png b/img/design.png
+new file mode 100644
+index 0000000..f04980c
+Binary files /dev/null and b/img/design.png differ
+diff --git a/index.php b/index.php
+index b3d9bbc..886dd8f 100644
+--- a/index.php
++++ b/index.php
+@@ -1 +1,30 @@
+ <?php
++/**
++ * Index.php
++ *
++ * New Customer Registration Form
++ *
++ * @author     Louis Lister <llister@ZTelco.com>
++ * @copyright  2019 ZTelco
++ * @package level-1
++ * @version    1.0.0
++ * @since      1.0.0
++ */
++
++?>
++
++<!DOCTYPE html>
++<html>
++<head>
++	<title>New Customer Registration Form</title>
++	<meta charset="utf-8">
++	<meta name="description" content="Free Web tutorials">
++	<meta name="keywords" content="Custom webform for ZTelco">
++	<meta name="author" content="Louis Lister">
++	<meta name="viewport" content="width=device-width, initial-scale=1.0">
++	<link rel="stylesheet" href="css/style.css">
++</head>
++<body>
++	<h1>Hey you there</h1>
++</body>
++</html>
