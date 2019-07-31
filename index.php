@@ -29,7 +29,7 @@
 			</div>
 		</form>
 	</address>
-	<main>
+	<main class="main-content">
 		<div class="product-table">
 			
 		</div>
@@ -40,7 +40,7 @@
 			
 		</div>
 	</main>
-	<footer>
+	<footer class="page-footer">
 		<div class="footer-ads">
 			
 		</div>
