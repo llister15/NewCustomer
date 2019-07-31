@@ -123,7 +123,7 @@ address.address-section h1 {
 #customer-register > .inline-group > div > label, #customer-register > .inline-group > div > div {
 	display: inline-block;
 	font-style: normal;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 }
 
 #customer-register > .inline-group > div > label {
@@ -131,7 +131,9 @@ address.address-section h1 {
 }
 
 #customer-register > .inline-group > div > div > input {
-	height: 35px;
+	height: 30px;
+	padding: 8px;
+	font-size: 1.1rem;
 }
 
 #customer-register .col-2 {
@@ -239,6 +241,7 @@ footer.page-footer {
 
 footer.page-footer div.footer-ads {
 	grid-area: 1 / 1 / 2 / 2;
+	padding-top: 15px;
 }
 
 footer.page-footer div.contact-info-container {

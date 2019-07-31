@@ -49,13 +49,13 @@
 					<div class="form-group">
 				  <label class="control-label" for="firstname">First Name</label>  
 				  <div class="input-container">
-				  <input id="firstname" name="firstname" type="text" placeholder="" class="form-control input-md" required="true" size="65">
+				  <input id="firstname" name="firstname" type="text" placeholder="" class="form-control input-md" required="true">
 				  </div>
 					</div>
 					<div class="form-group">
 				  <label class="control-label" for="lastname">Last Name</label>  
 				  <div class="input-container">
-				  <input id="lastname" name="lastname" type="text" placeholder="" class="form-control input-md" required="true" size="65">
+				  <input id="lastname" name="lastname" type="text" placeholder="" class="form-control input-md" required="true">
 				  </div>
 				</div>
 				</div>
@@ -65,7 +65,7 @@
 				<div class="form-group">
 				  <label class="control-label" for="Phone">Phone</label>  
 				  <div class="input-container">
-				  <input id="Phone" name="Phone" type="text" placeholder="" class="form-control input-md" required="true" size="65">
+				  <input id="Phone" name="Phone" type="text" placeholder="" class="form-control input-md" required="true">
 					
 				  </div>
 				</div>
@@ -74,7 +74,7 @@
 				<div class="form-group">
 				  <label class="control-label" for="Email">Email</label>  
 				  <div class="input-container">
-				  <input id="Email" name="Email" type="text" placeholder="" class="form-control input-md" required="true" size="65">
+				  <input id="Email" name="Email" type="text" placeholder="" class="form-control input-md" required="true">
 					
 				  </div>
 				</div>
@@ -95,7 +95,7 @@
 				<div class="form-group">
 				  <label class="col-md-4 control-label" for="ServiceAddress">Service Address</label>  
 				  <div class="input-container">
-				  <input id="ServiceAddress" name="ServiceAddress" type="text" placeholder="" class="form-control input-md" required="">
+				  <input id="ServiceAddress" name="ServiceAddress" type="text" placeholder="" class="form-control input-md" required="true">
 					
 				  </div>
 				</div>
@@ -106,7 +106,7 @@
 				<div class="form-group">
 				  <label class="col-md-4 control-label" for="ServiceCity">City</label>  
 				  <div class="input-container">
-				  <input id="ServiceCity" name="ServiceCity" type="text" placeholder="" class="form-control input-md" required="">
+				  <input id="ServiceCity" name="ServiceCity" type="text" placeholder="" class="form-control input-md" required="true">
 					
 				  </div>
 				</div>
@@ -115,7 +115,7 @@
 				<div class="form-group">
 				  <label class="col-md-4 control-label" for="ServiceState">State</label>  
 				  <div class="input-container">
-				  <input id="ServiceState" name="ServiceState" type="text" placeholder="" class="form-control input-md" required="">
+				  <input id="ServiceState" name="ServiceState" type="text" placeholder="" class="form-control input-md" required="true">
 					
 				  </div>
 				</div>
@@ -135,7 +135,7 @@
 				  <label class="col-md-4 control-label" for="Same As Service Address">Same As Service Address</label>
 				  <div class="input-container">
 					<label class="checkbox-inline" for="Same As Service Address-0">
-					  <input type="checkbox" name="Same As Service Address" id="Same As Service Address-0" value="">
+					  <input type="checkbox" name="sameAddress" id="sameAddress" value="">
 					</label>
 				  </div>
 				</div>
