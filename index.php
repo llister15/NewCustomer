@@ -187,7 +187,11 @@
 				<td>$90</td>
 				<td>$60</td>
 				<td><input type="checkbox" name="" value=""></td>
-				<td rowspan="8"></td>
+				<td rowspan="8"><input type="checkbox" name="" value=""> $10 per Static IP<br /><br />
+					<input type="text" name="" size="4"><br />
+					<hr>
+					Number of IPs
+				</td>
 			  </tr>
 			  <tr>
 				<td>ZTelco FiberZ 100s</td>
