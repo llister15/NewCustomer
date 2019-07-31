@@ -130,10 +130,11 @@ address.address-section h1 {
 	margin-right: 8px;
 }
 
-#customer-register > .inline-group > div > div > input {
+#customer-register > .inline-group > div > div > input, #customer-register > .inline-group > div > div > select {
 	height: 30px;
-	padding: 8px;
+	padding: 4px;
 	font-size: 1.1rem;
+	width: 100%;
 }
 
 #customer-register .col-2 {
