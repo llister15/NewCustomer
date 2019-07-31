@@ -389,6 +389,11 @@
 	<footer class="page-footer">
 		<div class="footer-ads">
 			<span class="pricing-comment">Ask About Our Annual Pricing.</span>
+			<span class="pricing-comment">sales@ztelco.com<br />(858) 565-2155</span>
+			<span><hr /></span>
+			<span>Customer Signature</span>
+			<span><hr /></span>
+			<span>Date</span>
 		</div>
 		<div class="footer-disclosure">
 			<p>
