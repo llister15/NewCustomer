@@ -43,7 +43,6 @@
 		</div>
 			<div class="customer-form-container">
 				<form id="customer-register" class="form-horizontal">
-
 				<!-- Text input-->
 				<div class="inline-group col-2">
 						
@@ -173,13 +172,214 @@
 	</address>
 	<main class="main-content">
 		<div class="product-table">
-			
+			<table>
+			  <tr>
+				<th>Product Name</th>
+				<th>Download x Upload*</th>
+				<th>Regular Price</th>
+				<th>Promotional Price**</th>
+				<th></th>
+				<th>Static IP Add-on Price (MRC)</th>
+			  </tr>
+			  <tr>
+				<td>ZTelco FiberZ 100</td>
+				<td>100Mb x 20Mb</td>
+				<td>$90</td>
+				<td>$60</td>
+				<td></td>
+				<td rowspan="8"></td>
+			  </tr>
+			  <tr>
+				<td>ZTelco FiberZ 100s</td>
+				<td>100Mb x 100Mb</td>
+				<td>$200</td>
+				<td>$170</td>
+				<td></td>
+			  </tr>
+			  <tr>
+				<td>ZTelco FiberZ 300</td>
+				<td>300Mb x 75Mb</td>
+				<td>$160</td>
+				<td>$110</td>
+				<td></td>
+			  </tr>
+			  <tr>
+				<td>ZTelco FiberZ 300s</td>
+				<td>300Mb x 300Mb</td>
+				<td>$320</td>
+				<td>$270</td>
+				<td></td>
+			  </tr>
+			  <tr>
+				<td>ZTelco FiberZ 500</td>
+				<td>500Mb x 100Mb</td>
+				<td>$250</td>
+				<td>$200</td>
+				<td></td>
+			  </tr>
+			  <tr>
+				<td>ZTelco FiberZ 500s</td>
+				<td>500Mb x 500Mb</td>
+				<td>$425</td>
+				<td>$375</td>
+				<td></td>
+			  </tr>
+			  <tr>
+				<td>ZTelco FiberZ 1000</td>
+				<td>1 Gb  x 200Mb</td>
+				<td>$350</td>
+				<td>$300</td>
+				<td></td>
+			  </tr>
+			  <tr>
+				<td>ZTelco FiberZ 1000s</td>
+				<td>1 Gb x 1 Gb</td>
+				<td>$700</td>
+				<td>$650</td>
+				<td></td>
+			  </tr>
+			</table>
 		</div>
 		<div class="services-area">
-			
+			<table>
+			  <tr>
+				<th>Small Business</th>
+				<th></th>
+				<th>Enterprise</th>
+				<th></th>
+			  </tr>
+			  <tr>
+				<td>$27.95 monthly / user</td>
+				<td><input type="checkbox" name="" value=""></td>
+				<td>$35.95 monthly / user</td>
+				<td><input type="checkbox" name="" value=""></td>
+			  </tr>
+			  <tr>
+				<td>Total Number of Users</td>
+				<td><input type="text" name="" size="2"></td>
+				<td>Total Number of Users</td>
+				<td><input type="text" name="" size="2"></td>
+			  </tr>
+			  <tr>
+				<td>Auto Attendant</td>
+				<td>&#10003;</td>
+				<td>Auto Attendant</td>
+				<td>&#10003;</td>
+			  </tr>
+			  <tr>
+				<td>Voicemail</td>
+				<td>&#10003;</td>
+				<td>Voicemail</td>
+				<td>&#10003;</td>
+			  </tr>
+			  <tr>
+				<td>Unlimited Included Minutes</td>
+				<td>&#10003;</td>
+				<td>Unlimited Included Minutes</td>
+				<td>&#10003;</td>
+			  </tr>
+			  <tr>
+				<td>Caller ID</td>
+				<td>&#10003;</td>
+				<td>Caller ID</td>
+				<td>&#10003;</td>
+			  </tr>
+			  <tr>
+				<td>1000 Inbound Toll Free Minutes</td>
+				<td>&#10003;</td>
+				<td>5000 Inbound Toll Free Minutes</td>
+				<td>&#10003;</td>
+			  </tr>
+			  <tr>
+				<td>Call Recording</td>
+				<td>&#10005;</td>
+				<td>Call Recording</td>
+				<td>&#10003;</td>
+			  </tr>
+			  <tr>
+				<td>Multi Level Auto Attendant</td>
+				<td></td>
+				<td>Multi Level Auto Attendant</td>
+				<td>&#10003;</td>
+			  </tr>
+			  <tr>
+				<td>Time Based Routing</td>
+				<td>&#10005;</td>
+				<td>Time Based Routing</td>
+				<td>&#10003;</td>
+			  </tr>
+			  <tr>
+				<td>Call Monitoring</td>
+				<td>&#10005;</td>
+				<td>Call Monitoring</td>
+				<td>&#10003;</td>
+			  </tr>
+			  <tr>
+				<td>Voicemail Transcription</td>
+				<td>&#10005;</td>
+				<td>Voicemail Transcription</td>
+				<td>&#10003;</td>
+			  </tr>
+			</table>
 		</div>
 		<div class="add-ons-area">
-			
+			<table>
+			  <tr>
+				<th></th>
+				<th>Quantity</th>
+				<th>Additional Add Ons</th>
+			  </tr>
+			  <tr>
+				<td><input type="checkbox" name="" value=""></td>
+				<td><input type="text" name="" size="2"></td>
+				<td>Additional Charges Apply</td>
+			  </tr>
+			  <tr>
+				<td><input type="checkbox" name="" value=""></td>
+				<td><input type="text" name="" size="2"></td>
+				<td>Yealink W60p Wireless Phone + Base $210</td>
+			  </tr>
+			  <tr>
+				<td><input type="checkbox" name="" value=""></td>
+				<td><input type="text" name="" size="2"></td>
+				<td>Yealink Additional Handsets $130</td>
+			  </tr>
+			  <tr>
+				<td><input type="checkbox" name="" value=""></td>
+				<td><input type="text" name="" size="2"></td>
+				<td>Polycom VVX411 Phone $196</td>
+			  </tr>
+			  <tr>
+				<td><input type="checkbox" name="" value=""></td>
+				<td><input type="text" name="" size="2"></td>
+				<td>Polycom VVX311 Phone $158</td>
+			  </tr>
+			  <tr>
+				<td><input type="checkbox" name="" value=""></td>
+				<td><input type="text" name="" size="2"></td>
+				<td>WiFi $25/month</td>
+			  </tr>
+			  <tr>
+				<td><input type="checkbox" name="" value=""></td>
+				<td><input type="text" name="" size="2"></td>
+				<td>Fax to Email $25/month</td>
+			  </tr>
+			  <tr>
+				<td><input type="checkbox" name="" value=""></td>
+				<td><input type="text" name="" size="2"></td>
+				<td>Marketing DID $3/month</td>
+			  </tr>
+			  <tr>
+				<td><input type="checkbox" name="" value=""></td>
+				<td><input type="text" name="" size="2"></td>
+				<td>Additional Toll-Free Numbers $5/month</td>
+			  </tr>
+			  <tr>
+				<td><input type="checkbox" name="" value=""></td>
+				<td><input type="text" name="" size="2"></td>
+				<td>Viking Paging Unit $49/month</td>
+			  </tr>
+			</table>
 		</div>
 	</main>
 	<footer class="page-footer">
