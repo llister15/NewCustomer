@@ -8,7 +8,11 @@
 }
 
 :root {
-  --type: yellow;
+  --ZTelcoBlazingBlue: #0B213E;
+  --ZTelcoElectricBlue: #04ABD7;
+  --ZTelcoRedConnection: #F37C66;
+  --ZTelcoDeepGrey: #404040;
+  --ZTelcoCoolGrey: #E6E7E8;
 }
 
 * {
