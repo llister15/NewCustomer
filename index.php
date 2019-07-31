@@ -32,6 +32,10 @@
 		<div class="top-right-design">
 			<img class="responsive-img" src="img/design.png" />
 		</div>
+		<div class="bottom-right-message">
+			<header class="head-message"><h1>Pay as You Go, No Contracts!</h1></header>
+			<div class="sub-message"><h3>Featuring Symmetrical Upload and Download Speeds.</h3></div>
+		</div>
 	</header>
 	<address class="address-section">
 		<form class="inline-form">
