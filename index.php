@@ -198,7 +198,7 @@
 				<td>100Mb x 20Mb</td>
 				<td>$90</td>
 				<td>$60</td>
-				<td></td>
+				<td><input type="checkbox" name="" value=""></td>
 				<td rowspan="8"></td>
 			  </tr>
 			  <tr>
@@ -206,49 +206,49 @@
 				<td>100Mb x 100Mb</td>
 				<td>$200</td>
 				<td>$170</td>
-				<td></td>
+				<td><input type="checkbox" name="" value=""></td>
 			  </tr>
 			  <tr>
 				<td>ZTelco FiberZ 300</td>
 				<td>300Mb x 75Mb</td>
 				<td>$160</td>
 				<td>$110</td>
-				<td></td>
+				<td><input type="checkbox" name="" value=""></td>
 			  </tr>
 			  <tr>
 				<td>ZTelco FiberZ 300s</td>
 				<td>300Mb x 300Mb</td>
 				<td>$320</td>
 				<td>$270</td>
-				<td></td>
+				<td><input type="checkbox" name="" value=""></td>
 			  </tr>
 			  <tr>
 				<td>ZTelco FiberZ 500</td>
 				<td>500Mb x 100Mb</td>
 				<td>$250</td>
 				<td>$200</td>
-				<td></td>
+				<td><input type="checkbox" name="" value=""></td>
 			  </tr>
 			  <tr>
 				<td>ZTelco FiberZ 500s</td>
 				<td>500Mb x 500Mb</td>
 				<td>$425</td>
 				<td>$375</td>
-				<td></td>
+				<td><input type="checkbox" name="" value=""></td>
 			  </tr>
 			  <tr>
 				<td>ZTelco FiberZ 1000</td>
 				<td>1 Gb  x 200Mb</td>
 				<td>$350</td>
 				<td>$300</td>
-				<td></td>
+				<td><input type="checkbox" name="" value=""></td>
 			  </tr>
 			  <tr>
 				<td>ZTelco FiberZ 1000s</td>
 				<td>1 Gb x 1 Gb</td>
 				<td>$700</td>
 				<td>$650</td>
-				<td></td>
+				<td><input type="checkbox" name="" value=""></td>
 			  </tr>
 			</table>
 		</div>
