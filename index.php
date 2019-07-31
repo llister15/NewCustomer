@@ -189,7 +189,11 @@
 				<td>$90</td>
 				<td>$60</td>
 				<td><input type="checkbox" name="" value=""></td>
-				<td rowspan="8"></td>
+				<td rowspan="8"><input type="checkbox" name="" value=""> $10 per Static IP<br /><br />
+					<input type="text" name="" size="4"><br />
+					<hr>
+					Number of IPs
+				</td>
 			  </tr>
 			  <tr>
 				<td>ZTelco FiberZ 100s</td>
@@ -387,6 +391,11 @@
 	<footer class="page-footer">
 		<div class="footer-ads">
 			<span class="pricing-comment">Ask About Our Annual Pricing.</span>
+			<span class="pricing-comment">sales@ztelco.com<br />(858) 565-2155</span>
+			<span><hr /></span>
+			<span>Customer Signature</span>
+			<span><hr /></span>
+			<span>Date</span>
 		</div>
 		<div class="footer-disclosure">
 			<p>
